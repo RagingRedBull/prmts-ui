@@ -1,0 +1,16 @@
+.navbar {
+    padding-top: var(--mantine-spacing-sm);
+    background-color: var(--mantine-color-my-red-4);
+    justify-content: center;
+    text-align: center;
+}
+
+.header {
+    background-color: var(--mantine-color-my-orange-6);
+}
+
+.navLinkRoot {
+    &[data-active] {
+        background-color: var(--mantine-color-blue-2);
+    }
+}
